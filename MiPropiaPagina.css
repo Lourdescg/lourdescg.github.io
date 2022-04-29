@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+body{
+    background-color: #F2E3D5;
+}
+
+.flex-container {
+    background-color: #F2A7A7;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.flex-container a:hover {
+    background-color: #F28585;
+    color: #F2E3D5;
+}
+.flex-container a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gideon Roman', cursive;
+    text-align: center;
+}
+
+header{
+    background-color: #F2E3D5;
+}
+
+header h1{
+    color: #F28585;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+}
+
+header p {
+    text-align: center;
+    font-size: smaller;
+    color: #F28585;
+    font-family: 'Gideon Roman', cursive;
+    line-height: 15px;
+}
+
+hr{
+    border: solid #F28585;
+    height: 1px;
+    background-color: #F28585;
+}
+
+body{
+    text-align: justify;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bolder;
+    background-color: white;
+}
+
+h2{
+    letter-spacing: 9px;
+    text-decoration:underline;
+    color: #F28585;
+    text-align: right;
+}
+
+section p{
+    color: #D9D7BA;
+}
+
+#img1{
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+#img2{
+    width: 700px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+#img3{
+    width: 700px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+#img4{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+video{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+video + p {
+    text-align: center;
+    font-size: smaller;
+    line-height: 3px;
+    color: black;
+}
+
+#vidLink {
+    text-decoration: none;
+    color: #D9D7BA;
+}
+
+form {
+    background-color: #F2E3D5;
+}
+
+h2.form{
+    margin-top: 0px;
+    background-color: #F2E3D5;
+    text-align: center;
+    letter-spacing: normal;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+form fieldset {
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #F28585;
+    width: auto;
+}
+
+form fieldset legend {
+    color: #F28585;
+    font-size: larger;
+}
+
+form fieldset label {
+    margin-left: 40px;
+    color: white;
+}
+
+form input[type="text"] {
+    margin-bottom: 10px;
+    background-color: #F2A7A7;
+    border: solid #F2A7A7;
+    border-radius: 5px;
+    height: 30px;
+    width: 49%;
+    transition: width 0.4s ease
+}
+
+form input[type=text]:focus {
+    width: 60%;
+    border: solid #F28585;
+}
+
+form #nombre {
+    margin-left: 59px;
+}
+
+form #apellidos {
+    margin-left: 52px;
+}
+
+form #direccion {
+    margin-left: 49px;
+}
+
+form #email{
+    margin-left: 78px;
+}
+
+form p{
+    color: black;
+    font-size: larger;
+}
+
+form #sexo {
+    margin-left: 59px;
+}
+
+
+form input[type=checkbox] {
+    margin-left: 59px;
+}
+
+form h3 {
+    font-size: xx-small;
+    color: #D9D7BA;
+}
+
+form #terminos {
+    margin: auto;
+}
+
+form input[type=submit] {
+    float: right;
+    margin-right: 0px;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 12px;
+    font-weight: bolder;
+    height:50px;
+    background-color: #F28585;
+    color: white;
+    border: solid #F28585;
+    border-radius: 7px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+
+footer{
+    font-size: xx-small;
+    margin-right: 0%;
+    float: right;
+    color: lightgray;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+

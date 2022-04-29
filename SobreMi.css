@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+html {
+    background-image: url(https://www.freejpg.com.ar/image-900/33/33f3/F100022541-fondo_vertical_con_tonos_rosado_y_celeste_pastel.jpg);
+    background-size:cover;
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.flex-container a:hover {
+    background-color: #F28585;
+    color: #F2E3D5;
+}
+.flex-container a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gideon Roman', cursive;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: lightpink;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bolder;
+}
+
+p{
+    color: white;
+    font-family: 'Gideon Roman', cursive;
+}
+
+hr{
+    border: solid lightpink;
+}
+
+table, th, td {
+    border: 2px solid white;
+    font-family: 'Gideon Roman', cursive;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+    margin-top: 50px;
+}
+
+table td{
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: #D9D7BA;
+}
+
+table tr:nth-child(even) {
+    background-color: lightpink;
+}
+
+h2{
+    margin-top: 150px;
+    font-size: x-small;
+}
+
+footer {
+    margin-top: 300px;
+    float: right;
+    color: white;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ¡BIENVENIDO! </title>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="MiPropiaPagina.css" />
+<meta name = "keywords" content = "HTML, MiPropiaWeb, Lenguaje de Marcas">
+<meta name = "description" content="Práctica de Lenguaje de Marcas">
+<meta name = "autor" content = "Lourdes Castillo García">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class="flex-container">
+            <a href="http://127.0.0.1:5500/Mi_Web/Mi_Inicio.html">INICIO</a>
+            <a href="link">MENÚ</a>
+            <a href="https://www.vogue.es/">VOGUE</a>
+            <a href="http://127.0.0.1:5500/Mi_Web/SobreMi.html">SOBRE MÍ</a>
+        </nav>
+
+        <h1> Tendencias Primavera-Verano 2022 </h1>
+        <p> <b> ¿Qué vamos a vestir esta próxima temporada?</b><br>
+        Inspirándome en las prendas de moda, los colores y estampados más populares, 
+            aquí te dejo las tendencias que más veremos esta primavera y verano.</p>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>El Rosa</h2>
+                <p>En todas sus gamas posibles, un color favorecedor que podremos combinar con
+                    cualquier básico. Esta primavera-verano se seguirán llevando los vestidos fucsia
+                    o trajes de chaqueta rosa palo. Sin embargo, también podremos ver este color combinado
+                    con otras tonalidades como verdes o azules.
+                </p>
+                <img src="ColorRosa.jpg" alt="El color Rosa" id="img1">
+            </article>
+    
+            <article>
+                <h2>El color de Pantone</h2>
+                <p>Según el Instituto del Color podríamos decir que este colar entre el azul y el morado,
+                    se catalogará como el color del momento y lo veremos en nuestros armarios esta temporada, 
+                    desde vestidos largos de noche hasta ropa de deporte. Todo un boom de la moda.
+                </p>
+                <img src="ColorPantone.jpg" alt="El color elegido de Pantone" id="img2">
+            </article>
+    
+            <article>
+                <h2>Las transparencias</h2>
+                <p>Aprovechando que se acerca el verano y el calor, los tejidos que dejan ver el cuerpo se 
+                    abren paso en nuestros armarios. Con bordados entremezclados con flores en los vestidos o 
+                    incluyendo un forro corto en las faldas largas y pantalones anchos, los mejores diseñadores
+                    apuestan por la creación de estas prendas delicadas y estilosas.
+                </p>
+                <img src="Transparencias.jpg" alt="Trans" id="img3">
+            </article>
+    
+            <article>
+                <h2>La cazadora de cuero oversize</h2>
+                <p>La cazadora de cuero se caracteriza durante esta primavera 2022 por la silueta oversize. 
+                    La encontraremos en varios formatos de color negro, tanto la clásica americana de corte masculino con hombreras,
+                    como la mezcla entre lo rockero y lo inocente con mangas abullonadas.
+                </p>
+                <img src="Polipiel.jpg" alt="Polipiel" id="img4">
+            </article>
+    
+            <article>
+                <h2>La tendencia Color-Block</h2>
+                <p>A pesar de que el negro sea un clásico de nuestro armario sea la temporada que sea, la tendencia Color Block 
+                    ha resurgido pisando fuerte. Por ello, los diseñadores han apostado por la mezcla de tonalidades vivas, siendo 
+                    la más popular la tendencia del <i>color block</i> del morado y el rojo. Además, en las pasarelas de Prada se han 
+                    podido ver el verde menta junto con el lila y el amarillo o 
+                    con el verde khaki, y los azules intensos con los tonos burdeos. <br>
+                    Si quieres saber cómo combinarlo, no te pierdas el siguiente vídeo publicado por Vogue.</p>
+                <video width="350" height="260" controls>
+                <source src="ColorBlock.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg"></video>
+            <p> Fuente del vídeo:  
+                <a href="https://www.youtube.com/watch?v=5KeJ7S8YQ4w" target="_blank" id="vidLink">Vogue</a>
+            </p>
+            </article>
+            <hr>
+    
+            <article>
+                <form> 
+                <h2 class="form">Suscríbete a nuestra Newsletter</h1>
+                <fieldset>
+                    <legend>Rellena con tus datos</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos"><br>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <p>Seleccione su sexo:</p>
+                    <input type="radio" id="sexo" name="sexo" value="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="sexo" name="sexo" value="mujer">
+                    <label for="mujer">Mujer</label><br>
+                    <input type="radio" id="sexo" name="sexo" value="none">
+                    <label for="none">Prefiero no decirlo</label><br>
+                    <p>Selecciona tus intereses:</p>
+                    <input type="checkbox" id="abrigos" name="abrigos" value="abrigos">
+                    <label for="abrigos">Abrigos</label><br>
+                    <input type="checkbox" id="faldas" name="faldas" value="faldas">
+                    <label for="faldas">Faldas</label><br>
+                    <input type="checkbox" id="vestidos" name="vestidos" value="vestidos">
+                    <label for="vestidos">Vestidos</label><br>
+                    <input type="checkbox" id="jersey" name="jersey" value="jersey">
+                    <label for="jersey">Jersey</label><br>
+                    <input type="checkbox" id="pantalones" name="pantalones" value="pantalones">
+                    <label for="pantalones">Pantalones</label><br>
+                    <h3>*Es obligatorio que acepte los términos y condiciones de esta web.</h3>
+                    <input type="checkbox" id="terminos" name="terminos" value="terminos">
+                    <label for="terminos">Aceptar los términos de condiciones</label> <br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+            </article>
+        </section>
+    </main>
+
+<footer>
+	<p>Referencia de los contenidos de esta web en: 
+	<a href="https://www.vogue.es/moda/tendencias">Vogue</a>
+	</p>
+</footer>
+
+</body>
+</html>
+
